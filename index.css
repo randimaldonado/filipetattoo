@@ -4,7 +4,7 @@ html body{font-family:'Limelight',cursive;}
 .container{padding:2rem;}
 
 /*HEADER E A FOTO*/
-#contato-header{height:10vh;padding:0rem 1rem;display:flex;text-align:center;align-items:center;justify-content:space-between;color:#fff;background-color:#000;font-size:1.5rem;position: -webkit-sticky; /* Safari */
+#contato-header{padding:0.5rem 1rem;display:flex;text-align:center;align-items:center;justify-content:space-between;color:#fff;background-color:#000;font-size:1.5rem;position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;}
 #icones-header{display:flex;text-align:center;align-items:center;justify-content:center;}
