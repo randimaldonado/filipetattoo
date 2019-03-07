@@ -4,7 +4,9 @@ html body{font-family:'Limelight',cursive;}
 .container{padding:2rem;}
 
 /*HEADER E A FOTO*/
-#contato-header{height:10vh;padding:0rem 1rem;display:flex;text-align:center;align-items:center;justify-content:space-between;color:#fff;background-color:#000;font-size:1.5rem;}
+#contato-header{height:10vh;padding:0rem 1rem;display:flex;text-align:center;align-items:center;justify-content:space-between;color:#fff;background-color:#000;font-size:1.5rem;position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;}
 #icones-header{display:flex;text-align:center;align-items:center;justify-content:center;}
 #icones-header a{transition:0.3s;margin-left:1rem;color:#fff;font-size:2rem;}
 #icones-header a:hover{color:#ff2020;}
@@ -15,12 +17,30 @@ html body{font-family:'Limelight',cursive;}
 
 /*SOBRE*/
 #sobre{min-height:50vh;color:#fff;background-color:#333333;}
-#sobre h3{font-size:2rem;}
+#sobre h3{font-size:2rem; margin-bottom: 1rem;}
 #sobre p{line-height:1.5;}
 
 
 /*TRABALHOS*/
 #trabalhos{
-	border: 2px inset red;
-	min-height: 65vh;
+	padding: 2rem;
+	background-color: #000;
+}
+#trabalhos h3{
+	color: #fff;
+	font-size: 2rem;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+.trabalhos-cards{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.card img{
+	margin-bottom: 1rem;
+	padding: 0.2rem;
+	width: 100%;
+	background-color: #fff;
+	border-radius: 4px;
 }
