@@ -1,0 +1,26 @@
+
+/*GERAL*/
+html body{font-family:'Limelight',cursive;}
+.container{padding:2rem;}
+
+/*HEADER E A FOTO*/
+#contato-header{height:10vh;padding:0rem 1rem;display:flex;text-align:center;align-items:center;justify-content:space-between;color:#fff;background-color:#000;font-size:1.5rem;}
+#icones-header{display:flex;text-align:center;align-items:center;justify-content:center;}
+#icones-header a{transition:0.3s;margin-left:1rem;color:#fff;font-size:2rem;}
+#icones-header a:hover{color:#ff2020;}
+#container-titulo{height:40vh;display:flex;flex-direction:column;text-align:center;align-items:center;justify-content:center;padding:1rem 5rem 2rem 5rem;background-color:#000000;}
+#titulo{font-size:3rem;margin-bottom:1rem;color:#FF2020;}
+#subtitulo{font-size:1.5rem;color:#fff;}
+#imagem-topo{height:40vh;background-image:url("imagens/filipe.jpg");background-position:top center;background-size:cover;}
+
+/*SOBRE*/
+#sobre{min-height:50vh;color:#fff;background-color:#333333;}
+#sobre h3{font-size:2rem;}
+#sobre p{line-height:1.5;}
+
+
+/*TRABALHOS*/
+#trabalhos{
+	border: 2px inset red;
+	min-height: 65vh;
+}
