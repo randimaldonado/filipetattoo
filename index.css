@@ -4,6 +4,13 @@ html body{font-family: 'Muli', sans-serif;}
 .container{padding:2rem;}
 
 /*HEADER E A FOTO*/
+#contato{
+	padding: 1rem;
+	background-color: #000;
+	font-size: 2rem;
+	color:#fff;font-family:'Limelight',cursive;
+	text-align: center;
+}
 #contato-header{padding:0.5rem 1rem;display:flex;text-align:center;align-items:center;justify-content:space-between;color:#fff;background-color:#000;font-size:1.5rem;position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;}
@@ -49,3 +56,33 @@ html body{font-family: 'Muli', sans-serif;}
 	background-color: #fff;
 	border-radius: 4px;
 }
+
+#footer{
+	max-height: 85vh;
+	min-height: 85vh;
+	background-color: #262626;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	flex-direction: column;
+}
+
+#contato-footer{
+	display: none;
+}
+
+#mapa{
+	width: 100%;
+	margin-top: 1rem;
+}
+
+#end p{
+	letter-spacing: 5px;
+	font-size: 1rem;
+	line-height: 2;
+	font-weight: bold;
+	color: #ff2020;
+	text-transform: uppercase;
+}
+
